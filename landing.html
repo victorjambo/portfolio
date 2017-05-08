@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <title>JamboDesigns</title>
+
+    <!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/landing.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+    
+  </head>
+  <body class="is-loading">
+    <div class="bgimg">
+      <div class="topleft">
+        <p>Jambo Designs</p>
+      </div>
+      <div class="middle">
+        <h1>COMING SOON</h1>
+        <hr>
+        <p>The next big thing is here</p>
+      </div>
+      <div class="bottomleft">
+        <p class="signature">Made with <i class="fa fa-heart" style="color:red" aria-hidden="true"></i> By victorjambo</p>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+      <!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+      <script>
+        if ('addEventListener' in window) {
+          window.addEventListener('load', function() { document.body.className = document.body.className.replace(/\bis-loading\b/, ''); });
+          document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+        }
+      </script>
+  </body>
+</html>

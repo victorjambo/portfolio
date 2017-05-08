@@ -874,3 +874,7 @@
     body.is-ie #wrapper {
       height: 100%;
     }
+
+li.signature {
+  font-size: 14px;
+}
